@@ -1,1 +1,128 @@
-# sabrina-carpenter
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sabrina Carpenter</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #fff0f5;
+        }
+
+        h1, h2 {
+            color: #c2185b;
+        }
+
+        /* NAV ROSA */
+        .nav-rosa {
+            background-color: #ff69b4 !important;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <!-- HEADER -->
+    <div class="row align-items-center bg-light p-3 rounded">
+        <div class="col-md-8">
+            <h1>Sabrina Carpenter</h1>
+            <p>Conoce su vida, carrera y logros como artista.</p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="sabrina.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+
+    <!-- NAV ROSA -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-rosa mt-3 rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menú</a>
+
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#bio">Biografía</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#carrera">Carrera</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#logros">Logros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#tabla">Tabla</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="row mt-4">
+
+        <!-- SECTION -->
+        <div class="col-md-8">
+
+            <h2 id="bio">Biografía</h2>
+            <p>
+                Sabrina Carpenter es una cantante, actriz y compositora estadounidense nacida en 1999. 
+                Desde joven destacó por su talento en la actuación y la música.
+            </p>
+
+            <h2 id="carrera">Carrera</h2>
+            <p>
+                Inició en Disney Channel y luego desarrolló su carrera musical en el pop, 
+                logrando reconocimiento internacional.
+            </p>
+
+            <h2 id="logros">Logros</h2>
+            <ul>
+                <li>Reconocimiento internacional</li>
+                <li>Giras musicales</li>
+                <li>Millones de seguidores</li>
+            </ul>
+
+            <h2 id="tabla">Tabla</h2>
+            <table class="table table-striped">
+                <tr>
+                    <th>Año</th>
+                    <th>Evento</th>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Inicio en Disney</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Primer álbum</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Éxito internacional</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <!-- ASIDE -->
+        <div class="col-md-4 bg-light p-3 rounded">
+            <h3>Dato curioso</h3>
+            <p>Sabrina también escribe sus propias canciones.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="mt-4">
+    <p>Nombre: Angelly Parra</p>
+    <p>Correo: angellypn01@gmail.com</p>
+    <p>Institución: Skolmi</p>
+</footer>
+
+</body>
+</html>
